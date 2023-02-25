@@ -1,0 +1,128 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    border: 2px solid black;
+    height: 100vh; width: 100vw;
+    overflow: hidden;
+    background-color: #eee;
+}
+.upper{
+    height: 13%; width: 100vw;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(53, 53, 205);
+}
+.upper_one{
+    width: 40%; height: 100%;
+}
+.upper_two{
+     width: 40%;
+     height: 100%;
+}
+ .circle{
+    height: 110px; width: 110px;
+    background-color: white;
+    border-radius: 50%;
+} 
+.balance{
+    width: 75%;
+    height: 35%;
+    border-radius: 18px;
+    margin-top: 2%;
+    margin-left: 22%;
+    background-color: white;
+}
+.upper_two p:nth-child(1){
+    margin: 6%;
+    font-size: 20px;
+}
+.boxes{
+    height: 20%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.first{
+    height: 100%; width: 70%;
+}
+h2{
+  align-items: center;
+  margin-left: 20%;
+  margin-top: 30%;
+}
+.second{
+    height: 100%; width: 30%;
+    overflow: hidden; 
+}
+label{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+.box1{
+    height: 110%; width: 100%;
+    background-color: blue;
+    transform: rotate(45deg);
+    border-radius: 37px;
+    top: 45%;
+    left: 73%;
+}
+.box2{
+    height: 80px; width: 80px;
+    border-radius: 50%;
+    background-color: rgb(83, 11, 11);
+    bottom: 60%;
+    left: 75%;
+}
+.box3{
+    height: 40px; width: 40px;
+    background-color: skyblue;
+    border-radius: 50%;
+    bottom: 80%;
+}
+.for_pop-up{
+    height: 50%; width: 86%;
+    margin-left: 7%;
+    margin-top: 5%;
+    border-radius: 12%;
+    overflow: hidden;
+}
+section{
+    height: 30px; width: 30px;
+    position: absolute;
+}
+ 
+.for_image{
+    height: 43%; width: 85%;
+    border-top-left-radius: 11%;
+    border-top-right-radius: 11%;
+} 
+.order_key{
+    height: 4.5%; width: 32%;
+    background-color: rgb(98, 137, 40);
+    top: 78.5%; left: 34%;
+    z-index: 1;
+    border-radius: 25px;
+    color: white;
+    font-size: 25px;
+}
+.last_one{
+    width: 84%;height: 4%;
+    top: 81%;
+    background-color: rgb(9, 46, 79);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.for_navigation{
+    height: 8%; width: 90%;
+    border: 2px solid black;
+    margin-top: 5%; margin-left: 5%;
+    border-radius: 20px; 
+}  
+
+
+
